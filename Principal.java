@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Principal {
 
     public static void main(String[] args) {
-        Scanner sc  = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         Metodos m = new Metodos();
         int opt = 0;
         LinkedList<Animal> lista = new LinkedList<>();
@@ -15,6 +15,7 @@ public class Principal {
             System.out.println("2: Mostrar Lista");
             System.out.println("3: Importar Archivo");
             System.out.println("4: Exportar Archivo");
+            System.out.println("5: Buscar por nombre");
             opt = sc.nextInt();
             switch (opt) {
                 case 1:
@@ -28,8 +29,16 @@ public class Principal {
                     break;
                 case 4:
                     m.ExportarArchivo(lista);
-                break;
-            
+                    break;
+                case 5:
+                    Animal a = m.Buscar(lista);
+                    System.out.println("Categoria: " + " " + a.getCategoria());
+                    System.out.println("Nombre: " + " " + a.getNombre());
+                    System.out.println("Color: " + " " + a.getColor());
+                    System.out.println("Edad: " + " " + a.getEdad());
+                    System.out.println("------------------------------- \n");
+                    break;
+
                 default:
                     bandera = false;
                     break;
