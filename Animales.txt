@@ -1,0 +1,30 @@
+Categoria: terrestre
+Nombre: perro
+Color: blanco
+Edad: 5
+---------------------------------------
+Categoria: volador
+Nombre: aguila
+Color: marron
+Edad: 6
+---------------------------------------
+Categoria: anfibio
+Nombre: rana
+Color: amarillo
+Edad: 1
+---------------------------------------
+Categoria: reptil
+Nombre: cocodrilo
+Color: negro
+Edad: 12
+---------------------------------------
+Categoria: mar
+Nombre: pez
+Color: rojo
+Edad: 1
+---------------------------------------
+Categoria: volador
+Nombre: colibri
+Color: azul
+Edad: 1
+---------------------------------------
